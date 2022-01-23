@@ -15,7 +15,7 @@ COPY package.json ./
 
 
 #Run npm install command
-RUN npm install
+RUN npm i -g npm@latest
 
 
 #Copy the app
